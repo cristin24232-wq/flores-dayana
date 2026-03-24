@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para ti 💛</title>
+
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=A8V_Fg3AgYKIsfeMGG0U68PdEgqDQIsptTTr1l4RkIs9UHdHrPw0XjS4gInRcGa_poKXTIpam0k4SiJVDKeSFUoy18hhOZDleECSd8zZnA6YeSvHmtqzEes1NXKqoArxNqo1Oi97-iiJFCvpqIU8Y9du7zp_AqcP9B861_eyh9SE1z3LmLkPX0kXaDCQxska9HdN_SOXXW1dbt3i57LDhB8flPKQfu2LMMJOnkupl10lt5JeWLdzd22b0hJiozGkMooBLNhR_OBGd_nnnZoDutRo15HDABiqxZgdPrhgBE8BheFpqZTZM4D0jnjkIb0avJ87ct_L9llDEpH0k2IZ3w-MP8F6VilXh5PCXW2dLJUClWUNJYYDsBiCixkU0PgMQAKD9-jfOQf-TmXWDkADqJ1OW_RxDuFF1wmzlvtSYT5zPrDSYdAMFMy83m9Y5v7Rw8U-q0oz4Pr37A2qnF3VeqiXTmUAeDC23H9nthk-9rqoRMQUpaKK484kKHGGA15hn_0h8lkbAUQqeGuOUFg-wUVZl2kcCqCcrrkx-EUuj9AGENtBkt7Tfex5tt4wZDZfOfCL-D_wwnB5U-M-Gu8yv9Q2TVFl3XIDJqD5_WXliG9dTC-7PArr3kyAM-EfcKVwjE41ZD3HhKoxmDvZcWTAIEERh1yCCGGio4ISYXBNUm1iFREN4onAsnUYCYtyvPLySSnFHip1KufmBHlJyVT-UTgUXHbpqxT3VZyagnuNVySpBRDti0CdYDRp2kQ5_4JZv5MNzCEDNxaDchae9hJOtO5ivB0K3JaLSF5ndzaaO8-U7H3NGayd_szSQjI0ZoGtcWnhD2iOu3DT2pwUXjOcYQqpSK8PMni1IXwWISMubTRI6MB788T9NN2KRH9jJK0tHo030lAADmE4CeeDUgGVbieuZ784pgceK2OmKLM5RiBXk_k7CNMKGTHPLcVjm3nbL5dp2yPNJBlpLZB1Fsdiwke19QZ2B6-6CZs-TdcIvG2zNIzNfXuDalz2MTRj3nHX-q6i-FsMlZupUD88Clfzxc1RKMdaGl90V_waPrMNGpH1ERO3wsDwze4QhNvqzg_eGb-0VXkNcSQquPrjrlRTzK2kVZXwt2op_TDGrBH2cjvt2f4lcAUEEhBRLdfvS-GD1ACIJw6W-x6-d_bgMxMvLMEv2uvE7AbGRjGDGUKiVVIgxCi5PKkrD-UC3JF0IlcugpUpUIOrkhrPgIaI3r8JyPnvdbGAmnTAtlvRz1nSL_rpcT9IL3aOldFIbVixU7AyapCuf5h4skiwBmarjGGEq0mRL4wBUcJarR1pv0ts0bfy2cH-4j59vn8i13CFAx7b7qV1vpP36Tvkp30wNNLQLbkxFzePz8IuPmuSGntQKur_7AJAVY9LwvdgIxiEzIKCJKjYQKuvC3k7qLneuCHqPk8xz3ipXkbrW1EHOYippQoe893042PjyIkSxIE0Mo1aiFYS0AYc-nf7nGgirIxOIQqQbnCGVytYSOFkbKBylMIz5QFN3hFMVx5JcdUBDxQDPSCGRowvpQTdwG8KFnb0aU_7Vz6xY4sUxpOinxnaOyfHn3lO0wa1lk4ZNQ99zojPZ6E8RWsGlUagSEOTkovzIQi8tqAEMELuIxEpDztYW1_t_9QVZ8V3_LOIW5xikWIMcAvgmIS7t757hIYX08oJtA" nonce="ad28ea6bb6b65beae51b7eb0ad574a7b" charset="UTF-8"></script><style>
+body {
+    margin: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+    color: white;
+}
+
+/* Fondo */
+.fondo {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url("./foto.jpg") center no-repeat;
+    background-size: contain;
+    background-color: black;
+    z-index: -2;
+}
+
+/* Oscuro */
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: -1;
+}
+
+.contenido {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+h1 { font-size: 26px; }
+
+#contador { font-size: 18px; }
+
+.mensaje {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Flores */
+.flor {
+    position: absolute;
+    top: -50px;
+    font-size: 20px;
+    animation: caer linear infinite;
+}
+
+@keyframes caer {
+    to { transform: translateY(110vh); }
+}
+
+/* Polaroid */
+.polaroid {
+    position: absolute;
+    width: 100px;
+    background: white;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.pol1 { left: 5%; bottom: 10%; }
+.pol2 { right: 5%; bottom: 10%; }
+
+.polaroid img {
+    width: 100%;
+}
+
+/* Botones */
+.boton {
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: gold;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="fondo"></div>
+<div class="overlay"></div>
+
+<div class="contenido">
+    <h1>🌼 Para ti 💛</h1>
+    <div id="contador"></div>
+
+    <div class="mensaje">
+       tiamo mucho chaparrita bella 💛
+    </div>
+
+    <button class="boton" onclick="activarMusica()">🎵 Activar música</button>
+</div>
+
+<!-- Fotos -->
+<div class="polaroid pol1">
+    <img src="./foto1.jpg">
+</div>
+
+<div class="polaroid pol2">
+    <img src="./foto2.jpg">
+</div>
+
+<!-- Música -->
+<audio id="musica" loop>
+    <source src="./musica.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+// contador
+const fechaInicio = new Date(2024, 8, 8);
+
+function actualizarContador() {
+    const ahora = new Date();
+    const diff = ahora - fechaInicio;
+
+    const dias = Math.floor(diff / (1000*60*60*24));
+    const horas = Math.floor((diff / (1000*60*60)) % 24);
+
+    document.getElementById("contador").innerHTML =
+        `${dias} días 💛 ${horas}h`;
+}
+
+actualizarContador();
+setInterval(actualizarContador, 1000);
+
+// flores
+function crearFlor() {
+    const flor = document.createElement("div");
+    flor.className = "flor";
+    flor.innerHTML = "🌼";
+
+    flor.style.left = Math.random() * window.innerWidth + "px";
+    flor.style.animationDuration = (4 + Math.random() * 4) + "s";
+
+    document.body.appendChild(flor);
+    setTimeout(() => flor.remove(), 8000);
+}
+
+setInterval(crearFlor, 300);
+
+// 🎵 activar música (clave para celular)
+function activarMusica() {
+    const audio = document.getElementById("musica");
+    audio.play();
+}
+</script>
+
+</body>
+</html>
